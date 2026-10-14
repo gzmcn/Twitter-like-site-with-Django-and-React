@@ -1,0 +1,44 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f8fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px; /* Küçük ekranlarda da ortalama için */
+    box-sizing: border-box;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 560px;
+    height: 460px;
+    text-align: center;
+  
+    /* Ortalamayı garantiye almak için flex ekledim */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .login-logo {
+    color: #1da1f2;
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  
+  .login-footer {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .login-footer a {
+    color: #1da1f2;
+    text-decoration: none;
+  }
+  
